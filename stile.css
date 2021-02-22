@@ -1,0 +1,134 @@
+*{margin:0;padding:0}
+
+nav a
+{
+    text-decoration:none;
+    font-size:18px;
+    font-family: 'Dosis', sans-serif;
+    color: black;    
+    letter-spacing: 2;
+
+} 
+nav ul
+{
+    background-color: #00AAAA;
+}
+#aficiones li 
+{
+    text-align: left;
+}
+#aficiones li:hover
+{
+    text-align: left;
+    background-color: #074949;
+}
+
+nav a:active
+{
+    text-decoration:none;
+    font-size:18px;
+    font-family: 'Dosis', sans-serif;
+    color: white;   
+    background-color: #000; 
+    letter-spacing: 2;
+
+} 
+
+#jueguitos
+{
+    width: 600px;
+    height: 600px;
+    margin-top: 10px;
+}
+img
+{
+
+    height: 100%;
+    width: 100%;
+    border: 0px solid white;
+    margin-right: auto;
+    transition: all 0.5s;
+    box-shadow: 1px 1px green;
+}
+
+nav ul li:hover
+{
+    color: white;
+}
+nav li
+{
+    display:inline-block;
+    width:auto;
+    padding:5px 10px;
+    background-color:#00AAAA;
+    margin: 0px;
+    text-align:center;
+    
+}
+footer
+
+{   color: black;
+    background-color:#00AAAA;
+    text-align: left;
+    width: 100%;
+    clear: both;
+    display:inline-block;
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    
+}
+footer p
+
+{   
+    color: black;
+    background-color:#00AAAA;
+    font-family: 'Dosis', sans-serif;
+
+    text-align: center;
+    padding: 5px 10px;
+    clear: both;
+    display:inline-block;
+    letter-spacing: 2px;
+    font-size: 14px;
+
+
+    
+}
+#menu1 a:hover
+{
+    background-color:#000;
+    color: white;
+}
+#menu1 a
+{
+    letter-spacing: 2px;
+
+}
+
+#titulo
+{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 4px;
+    color:#00AAAA;
+    max-width: 25%;
+}
+body
+{
+    background-color: #0000AA;
+}
+p
+{
+    font-size: 22px;
+    color:#FFFF56;
+    font-family: 'Dosis', sans-serif;}
+h1, h2
+{
+    color:#00AAAA;
+    font-family: 'VT323', monospace;
+
+}
