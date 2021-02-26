@@ -1,0 +1,298 @@
+/* ELEMENTOS */
+body
+{
+    background-color:#FAFAFA;
+}
+
+/* CLASES */
+.container
+{
+    display: grid;
+    grid-auto-rows: 200px;
+    grid-gap: 1rem;
+    grid-auto-flow: row dense;
+}
+.filaMenu
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.fila
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+.columna
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.centro
+{
+    width: 40vh;
+    
+}
+.icon 
+{
+padding: 4px 10px 10px 4px;
+}
+.sombra img
+{
+
+}
+.post img
+{
+    width: 300px;
+    height: 300px;
+}
+/* IDENTIFICADORES */
+#menu
+{
+    margin-top: 0px;
+    background-color: white;
+    width: 100%;
+    border-top: solid 0.5px rgba(190, 190, 190, 0.671);
+    border-bottom: solid 0.5px rgba(190, 190, 190, 0.671);
+
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    
+}
+#menu input
+{
+    width: 200px;
+    height: 30px;
+    border: solid 0.5px rgba(185, 185, 185, 0.746) ;
+    text-align: center;
+}
+#editProfile
+{
+    text-decoration: none;
+    border-radius: 5px;
+    border: solid 1px rgba(187, 187, 187, 0.507);
+    padding: 5px;
+    text-decoration: none;
+    color: #1a1a1a;
+    padding-left: 3px;
+    font-family: sans-serif;
+    font-weight: 400;
+    white-space: pre;
+
+
+}
+#fran
+{
+    margin-bottom: 0px;
+    align-items: center;
+
+}
+#fran p
+{
+    font-size: 3vh;
+    font-family: sans-serif;
+    font-weight: 200;
+    padding-right: 30px;
+
+}
+#fran img
+{
+    padding-left: 30px;
+}
+.pedo
+{
+    border: solid 0.3px rgba(128, 128, 128, 0.466);
+    border-radius: 150%;
+    height: 140px;
+    width: 140px;
+    margin: 10px 30px 10px 40px;
+    
+    
+}
+
+
+.perfil
+{
+ 
+    width: 100%;
+    padding-top: 30px;
+    flex-grow: 1;
+
+}
+#bio p
+{
+    text-align: left;
+    margin-top: 0px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+#bio
+{
+    min-width: 100%;
+    color: rgb(61, 61, 61);
+
+
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    flex-grow: 1;
+    padding: 20px 20% 0px 20%;
+
+
+
+}
+.feed
+{
+    flex-grow: 1;
+    align-items: center;
+}
+hr
+{
+
+    width: 620px;
+    border-top: 0.3px solid rgba(128, 128, 128, 0.411);
+}
+.grid img
+{
+    width: 100%;
+    height: 100%
+}
+.seguidoresMobile
+{
+    margin-top: 0px;
+    font-family: sans-serif;
+    margin:0px;
+    min-width: 100%;
+    justify-content: space-between;
+}
+.grid:nth-child(11n+1) {
+    grid-column: span 1;
+  }
+
+  .grid:nth-child(11n+4) {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+
+  .grid-:nth-child(11n+6) {
+    grid-column: span 3;
+    grid-row: span 1;
+  }
+
+  .grid:nth-child(11n+1):nth-child(11n+7) {
+    grid-column: span 1;
+    grid-row: span 2;
+  }
+
+  .grid:nth-child(11n+8) {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+
+  .grid:nth-child(11n+9) {
+    grid-row: span 3;
+  }
+
+  .grid-gallery__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+
+
+
+
+
+#seguidores 
+{
+    margin-top: 0px;
+    font-family: sans-serif;
+    margin:0px;
+    min-width: 100%;
+    justify-content: space-between;
+
+}
+#seguidores p
+{
+    margin-top: 0px;
+    font-family: sans-serif;
+    font-size: 16px;
+    
+ 
+
+    
+    
+}
+@media screen and (max-width: 600px)
+{
+    .icon 
+    {
+    padding: 2px 10px 10px 2px;
+    }
+    .filaMenu img
+    {
+        padding: 0px;
+        min-width: 10px;
+        padding: 1px;
+    }
+    .pedo
+    {
+        width: 12vh;
+        height: 12vh;
+        width: 33%;
+    overflow:hidden;
+    }
+    .pedo img
+    {
+        transition: all .4s ease;
+        width:100%;
+    }
+    .pedo img:hover
+    {
+        transform:scale(1.5) rotate(20deg);
+        opacity:0.6;
+    }
+    #seguidores
+    {
+        display: none;
+    }
+    .grid
+    {
+        padding: 0px;
+    }
+    .icon
+{
+    visibility: hidden;
+}
+
+}
+@media screen and (max-width: 800px){
+.grid
+{
+    padding: 0px;
+    padding-top: 0px;
+    
+}
+.hr
+{
+    width: 800px;
+}
+
+}

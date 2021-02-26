@@ -1,0 +1,39 @@
+#cajonAzul
+{
+    height: 200px;
+    background-color: blue;
+}
+#cajonAmarillo
+{
+    height: 200px;
+    background-color: yellow;
+}
+#cajonVerde
+{
+    background-color: green;
+}
+
+#reto2Amarillo
+{
+    background-color: yellow;
+}
+#reto2Verde
+{
+    background-color: green;
+}
+#reto2Azul
+{
+    background-color: blue;
+}
+#primerazul
+{
+    height: 600px;
+}
+.separador
+{
+    margin: 100px;
+}
+#bloques
+{
+    height: 300px;
+}
